@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['calculadora.py'],
-             pathex=['C:\\Users\\vivib\\Desktop\\Calculadora'],
+             pathex=['D:\\Cosas\\Estudio\\Programación\\Python\\Proyectos\\Calculadora'],
              binaries=[],
              datas=[],
              hiddenimports=[],

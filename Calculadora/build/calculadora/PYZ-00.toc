@@ -1,4 +1,4 @@
-('C:\\Users\\vivib\\Desktop\\Calculadora\\build\\calculadora\\PYZ-00.pyz',
+('D:\\Cosas\\Estudio\\Programación\\Python\\Proyectos\\Calculadora\\build\\calculadora\\PYZ-00.pyz',
  [('multiprocessing.popen_fork',
    'c:\\users\\vivib\\appdata\\local\\programs\\python\\python38-32\\lib\\multiprocessing\\popen_fork.py',
    'PYMODULE'),

@@ -1,4 +1,4 @@
-print ("Bienvenido a la super calculadora de intereses Acerenzomatic 0.1.alpha")
+print ("Bienvenido a la super calculadora de intereses Acerenzomatic 0.2.alpha")
 
 #Repetir hasta que ingrese algo distinto a "no"
 chau = "no"
@@ -18,13 +18,13 @@ while chau == "no":
         quit()
 
 #Calculator
-    if f_cuotas == 1:
+    if f_cuotas == 1 and f_monto > 0:
         x = f_monto
         print (f"El monto a cobrar es el mismo al ingresado ({x}), me ejecutaste al pedo")
-    elif f_cuotas == 2:
+    elif f_cuotas == 2 and f_monto > 0:
         x = f_monto + (f_monto*9/100)
         print (f"Se aplica una tasa de interés del 4,5% mensual. El importe a cobrar es {x}")
-    elif f_cuotas > 2:
+    elif f_cuotas > 2 and f_monto > 0:
         x = f_monto + (f_monto*6.7*f_cuotas/100)
         print (f"Se aplica una tasa de interés de 6,7% mensual. El importe a cobrar es {x}"),
     else:
